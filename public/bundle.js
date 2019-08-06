@@ -330,10 +330,10 @@ var app = (function () {
     			img = element("img");
     			t = space();
     			span = element("span");
-    			attr(img, "src", img_src_value = "img/" + ctx.id + ".png");
+    			attr(img, "src", img_src_value = "public/img/" + ctx.id + ".png");
     			add_location(img, file, 7, 2, 118);
     			attr(span, "class", "tooltip");
-    			add_location(span, file, 8, 2, 148);
+    			add_location(span, file, 8, 2, 155);
     			attr(a, "class", "link");
     			attr(a, "id", ctx.id);
     			attr(a, "href", ctx.href);
@@ -353,7 +353,7 @@ var app = (function () {
     		},
 
     		p: function update(changed, ctx) {
-    			if ((changed.id) && img_src_value !== (img_src_value = "img/" + ctx.id + ".png")) {
+    			if ((changed.id) && img_src_value !== (img_src_value = "public/img/" + ctx.id + ".png")) {
     				attr(img, "src", img_src_value);
     			}
 
@@ -524,7 +524,7 @@ var app = (function () {
     			t = space();
     			img = element("img");
     			attr(img, "id", "avatar");
-    			attr(img, "src", "img/avatar.jpg");
+    			attr(img, "src", "public/img/avatar.jpg");
     			add_location(img, file$1, 46, 0, 868);
     		},
 
