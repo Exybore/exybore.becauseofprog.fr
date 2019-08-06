@@ -3,6 +3,11 @@
 
   let links = [
     {
+      name: 'BecauseOfProg team',
+      id: 'bop',
+      href: 'https://becauseofprog.fr'
+    },
+    {
       name: "Discord server",
       id: "discord",
       href: "http://discord.gg/wfyYYjC"

@@ -4,7 +4,7 @@
   export let href
 </script>
 
-<a class="props" id={id} href={phref}>
+<a class="link" id={id} href={href}>
   <img src="img/{id}.png" />
-  <span class="tooltip">{social.name}</span>
+  <span class="tooltip">{name}</span>
 </a>
