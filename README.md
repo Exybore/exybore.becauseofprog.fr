@@ -1,54 +1,58 @@
-# exybore.becauseofprog.fr
+<div align="center">
+  <img src="public/img/avatar.jpg" width="200px" alt="Avatar"/>
+  <h1>Exybore</h1>
+  <h3>Personal website which redirects to my links</h3>
+  <a href="http://exybore.becauseofprog.fr">exybore.becauseofprog.fr</a>
+</div>
 
-My personal website !
+- [💻 Developing](#-developing)
+- [🔨 Deploying](#-deploying)
+- [📜 Credits](#-credits)
+- [🔐 License](#-license)
 
-## Get started
+## 💻 Developing
+
+First of all, clone the repository on your local drive :
+
+```bash
+git clone https://github.com/exybore/exybore.github.io.git  # HTTPS
+git clone git@github.com:exybore/exybore.github.io          # SSH
+```
 
 Install the dependencies...
 
 ```bash
-cd svelte-app
-npm install
+cd exybore.github.io
+
+npm install   # NPM
+yarn install  # Yarn
 ```
 
 ...then start [Rollup](https://rollupjs.org):
 
 ```bash
-npm run dev
+npm run dev  # NPM
+yarn dev     # Yarn
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Navigate to [localhost:5000](http://localhost:5000). You should see the app running !
 
-## Deploying to the web
+## 🔨 Deploying
 
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
+In order to build the application to be production-ready, just use this command :
 
 ```bash
-npm install -g now
+npm run build  # NPM
+yarn build     # Yarn
 ```
 
-Then, from within your project folder:
+Then, you just have to serve the `public/index.html` file. That's all !
 
-```bash
-cd public
-now
-```
+## 📜 Credits
 
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
+- Library : [Svelte](https://svelte.dev)
+- Maintainer : [Exybore](https://github.com/exybore)
 
-### With [surge](https://surge.sh/)
+## 🔐 License
 
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
+[GNU GPL v3](LICENSE)
