@@ -6,5 +6,5 @@
 
 <a class="link" id={id} href={href}>
   <img src="img/{id}.png" />
-  <span class="tooltip">{name}</span>
+  <span class="tooltip">{@html name.replace(' ','<br>')}</span>
 </a>
