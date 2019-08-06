@@ -1,1 +1,128 @@
-#bop{top:30%}#discord{top:37%;left:41%}#email{top:37%;right:41%}#github{bottom:43%;right:40%}#mastodon{bottom:30%;left:45%}#twitter{bottom:30%;right:45%}#youtube{bottom:43%;left:40%}html{height:100%}body{background-image:url(img/background.jpg);background-repeat:no-repeat;background-size:cover;font-family:Arial;margin:0;height:100%;display:flex;align-items:center;justify-content:center}body .link{position:fixed;text-decoration:none;text-align:center}body .link img{transition:all .1s;height:50px}body .link .tooltip{transition:all .1s;text-transform:uppercase;color:#fff;background-color:rgba(0,0,0,.7);border-radius:7px;padding:7px;display:none}body .link:hover img{height:75px}body .link:hover .tooltip{display:block}body img#avatar{border-radius:9999999px;height:150px}
+#bop {
+  top: 30%;
+}
+#discord {
+  top: 37%;
+  left: 41%;
+}
+@media screen and (max-width: 1300px) {
+  #discord {
+    left: 34%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #discord {
+    left: 23%;
+  }
+}
+#email {
+  top: 37%;
+  right: 41%;
+}
+@media screen and (max-width: 1300px) {
+  #email {
+    right: 34%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #email {
+    right: 23%;
+  }
+}
+#github {
+  bottom: 43%;
+  right: 40%;
+}
+@media screen and (max-width: 1300px) {
+  #github {
+    right: 31%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #github {
+    right: 20%;
+  }
+}
+#mastodon {
+  bottom: 30%;
+  left: 45%;
+}
+@media screen and (max-width: 1300px) {
+  #mastodon {
+    left: 39%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #mastodon {
+    left: 32%;
+  }
+}
+#twitter {
+  bottom: 30%;
+  right: 45%;
+}
+@media screen and (max-width: 1300px) {
+  #twitter {
+    right: 39%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #twitter {
+    right: 32%;
+  }
+}
+#youtube {
+  bottom: 43%;
+  left: 40%;
+}
+@media screen and (max-width: 1300px) {
+  #youtube {
+    left: 31%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #youtube {
+    left: 20%;
+  }
+}
+html {
+  height: 100%;
+}
+body {
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .link {
+  position: fixed;
+  text-decoration: none;
+  text-align: center;
+}
+body .link img {
+  transition: all 0.1s;
+  height: 50px;
+}
+body .link .tooltip {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 7px;
+  padding: 7px;
+  display: none;
+}
+body .link:hover img {
+  height: 75px;
+}
+body .link:hover .tooltip {
+  display: block;
+}
+body img#avatar {
+  border-radius: 9999999px;
+  height: 150px;
+}
