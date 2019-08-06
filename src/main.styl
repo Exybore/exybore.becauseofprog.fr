@@ -1,0 +1,43 @@
+@import './links'
+
+html
+  height: 100%
+
+body
+  background-image: url('img/background.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+
+  margin: 0
+  height: 100%
+
+  display: flex
+  align-items: center
+  justify-content: center
+
+  .social
+    position: fixed
+    text-decoration: none
+    text-align: center
+    img
+      transition: all .1s
+      height: 50px
+    .tooltip
+      transition: all .1s
+      text-transform: uppercase
+      color: white
+      background-color: rgba(#0, 0.7)
+      border-radius: 7px
+      padding: 7px
+
+      display: none
+    &:hover
+      img
+        height: 75px
+      .tooltip
+        display: block
+
+  img
+    &#avatar
+      border-radius: 9999999px
+      height: 150px

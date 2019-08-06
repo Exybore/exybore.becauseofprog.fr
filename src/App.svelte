@@ -1,5 +1,42 @@
 <script>
-	let name = 'world';
+  import Link from './Link.svelte'
+
+  let links = [
+    {
+      name: "Discord server",
+      id: "discord",
+      href: "http://discord.gg/wfyYYjC"
+    },
+    {
+      name: "Email address",
+      id: "email",
+      href: "mailto:exybore@becauseofprog.fr"
+    },
+    {
+      name: "Github",
+      id: "github",
+      href: "https://github.com/exybore"
+    },
+    {
+      name: "Mastodon",
+      id: "mastodon",
+      href: "https://mstdn.io/@Exybore"
+    },
+    {
+      name: "Twitter",
+      id: "twitter",
+      href: "https://twitter.com/exybore"
+    },{
+      name: "Youtube channel",
+      id: "youtube",
+      href: "https://www.youtube.com/channel/UC9Q3XhnYp-bZUgE995Csxww"
+    },
+
+  ]
 </script>
 
-<h1>Hello {name}!</h1>
+{#each links as link}
+  <Link {...link} />
+{/each}
+
+<img id="avatar" src="img/avatar.jpg"/>
