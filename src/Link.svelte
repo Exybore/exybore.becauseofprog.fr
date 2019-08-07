@@ -5,6 +5,6 @@
 </script>
 
 <a class="link" id={id} href={href}>
-  <img src="public/img/{id}.png" />
+  <img src="img/{id}.png" />
   <span class="tooltip">{@html name.replace(' ','<br>')}</span>
 </a>
