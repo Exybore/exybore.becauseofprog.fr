@@ -44,4 +44,4 @@
   <Link {...link} />
 {/each}
 
-<img id="avatar" src="img/avatar.jpg"/>
+<img id="avatar" src="img/avatar.jpg" alt="Profile picture"/>
