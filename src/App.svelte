@@ -8,9 +8,9 @@
       href: 'https://becauseofprog.fr'
     },
     {
-      name: "Discord server",
-      id: "discord",
-      href: "http://discord.gg/wfyYYjC"
+      name: "Keybase",
+      id: "keybase",
+      href: "https://keybase.io/exybore"
     },
     {
       name: "Email address",
