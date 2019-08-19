@@ -11,6 +11,8 @@
 - [🔐 License](#-license)
 
 ## 💻 Developing
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fexybore%2Fexybore.becauseofprog.fr.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fexybore%2Fexybore.becauseofprog.fr?ref=badge_shield)
+
 
 First of all, clone the repository on your local drive :
 
@@ -56,3 +58,6 @@ Then, you just have to serve the `public/index.html` file. That's all !
 ## 🔐 License
 
 [GNU GPL v3](LICENSE)
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fexybore%2Fexybore.becauseofprog.fr.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fexybore%2Fexybore.becauseofprog.fr?ref=badge_large)
