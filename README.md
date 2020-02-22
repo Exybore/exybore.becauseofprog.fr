@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/img/avatar.jpg" width="200px" alt="Avatar"/>
+  <img src="public/img/avatar.png" width="200px" alt="Avatar"/>
   <h1>Exybore</h1>
   <h3>Personal website which redirects to my links</h3>
   <a href="http://exybore.becauseofprog.fr">exybore.becauseofprog.fr</a>
