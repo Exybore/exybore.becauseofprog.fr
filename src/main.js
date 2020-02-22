@@ -1,8 +1,8 @@
-import App from './App.svelte';
-import './main.styl'
+import App from './App.svelte'
+import './style/main.styl'
 
-var app = new App({
+let app = new App({
 	target: document.body
-});
+})
 
-export default app;
+export default app
