@@ -1,43 +1,4 @@
+@import './body'
+@import './elements'
 @import './links'
-
-html
-  height: 100%
-
-body
-  background-image: url('img/background.jpg')
-  background-repeat: no-repeat
-  background-size: cover
-
-  font-family: Arial
-
-  margin: 0
-  height: 100%
-
-  display: flex
-  align-items: center
-  justify-content: center
-
-  .link
-    position: fixed
-    text-decoration: none
-    text-align: center
-    img
-      transition: all .1s
-      height: 50px
-    .tooltip
-      text-transform: uppercase
-      color: white
-      background-color: rgba(#0, 0.7)
-      border-radius: 7px
-      padding: 7px
-
-      display: none
-    &:hover
-      img
-        height: 75px
-      .tooltip
-        display: block
-
-  img
-    &#avatar
-      height: 150px
+@import './section'
