@@ -40,11 +40,13 @@
   ];
 </script>
 
-{#each links as link}
-  <Link {...link} />
-{/each}
+<div id="container">
+  {#each links as link}
+    <Link {...link} />
+  {/each}
 
-<img
-  id="avatar"
-  src="img/avatar.png"
-  alt="Profile picture" />
+  <img
+    id="avatar"
+    src="img/avatar.png"
+    alt="Profile picture" />
+</div>
